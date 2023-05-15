@@ -1,0 +1,11 @@
+.main {
+  padding: 2em 4em;
+  color: #f0f0f0;
+
+  .taskList {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 3em;
+  }
+}
